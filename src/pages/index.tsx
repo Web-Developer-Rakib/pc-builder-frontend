@@ -1,9 +1,6 @@
 import ProductCard from "@/components/ProductCard";
-import { Inter } from "next/font/google";
 import Head from "next/head";
 import { IProduct, baseURL } from "../../constants";
-
-const inter = Inter({ subsets: ["latin"] });
 
 export default function Home({ data }: any) {
   return (

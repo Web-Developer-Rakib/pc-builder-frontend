@@ -2,7 +2,7 @@
   {
     "image": "https://www.startech.com.bd/image/cache/catalog/processor/amd/Athlon/athlon-500x500.jpg",
     "productName": "AMD Athlon 200GE",
-    "category": "cpu",
+    "category": "CPU",
     "status": "In Stock",
     "price": 399.99,
     "description": "Powerful CPU for high-performance computing tasks.",
@@ -30,7 +30,7 @@
   {
     "image": "https://www.startech.com.bd/image/cache/catalog/processor/Intel/pentium-gold-g6405/pentium-gold-g6405-01-500x500.webp",
     "productName": "Intel Pentium Gold G6405",
-    "category": "cpu",
+    "category": "CPU",
     "status": "Out of stock",
     "price": 499.99,
     "description": "Top-of-the-line CPU for professional workstations.",
@@ -58,7 +58,7 @@
   {
     "image": "https://www.startech.com.bd/image/cache/catalog/processor/Intel/i3-10100/i3-10100-500x500.jpg",
     "productName": "Intel 10th Gen Core i3",
-    "category": "cpu",
+    "category": "CPU",
     "status": "In Stock",
     "price": 299.99,
     "description": "Budget-friendly CPU for everyday tasks and light gaming.",
@@ -87,7 +87,7 @@
   {
     "image": "https://www.startech.com.bd/image/cache/catalog/ram/transcend/jetram-4gb/jetram-4gb-01-500x500.webp",
     "productName": "Transcend JetRam 16GB DDR4",
-    "category": "ram",
+    "category": "RAM",
     "status": "In Stock",
     "price": 79.99,
     "description": "High-speed DDR4 RAM module for enhanced system performance.",
@@ -115,7 +115,7 @@
   {
     "image": "https://www.startech.com.bd/image/cache/catalog/ram/adata/4gb-ddr4-2666/4gb-2666-500x500.jpg",
     "productName": "Adata 32 GB DDR4 ",
-    "category": "ram",
+    "category": "RAM",
     "status": "In Stock",
     "price": 129.99,
     "description": "High-capacity DDR4 RAM module for memory-intensive tasks.",
@@ -143,7 +143,7 @@
   {
     "image": "https://www.startech.com.bd/image/cache/catalog/ram/netac/basic-4gb-ddr4-2666mhz/basic-4gb-ddr4-2666mhz-01-500x500.webp",
     "productName": "Netac Basic 8GB DDR4",
-    "category": "ram",
+    "category": "RAM",
     "status": "Out of stock",
     "price": 49.99,
     "description": "Affordable DDR3 RAM module for basic computing needs.",
@@ -342,7 +342,7 @@
   {
     "image": "https://www.startech.com.bd/image/cache/catalog/monitor/lenovo/d19-10/d19-10-01-500x500.jpg",
     "productName": "Lenovo D19-10 27 Inch HD",
-    "category": "monitor",
+    "category": "Monitor",
     "status": "In Stock",
     "price": 249.99,
     "description": "27-inch IPS monitor with Full HD resolution and slim bezels.",
@@ -372,7 +372,7 @@
   {
     "image": "https://www.startech.com.bd/image/cache/catalog/monitor/philips/193v/193v-500x500.png",
     "productName": "PHILIPS 32 Inch 193V5LSB2 LED",
-    "category": "monitor",
+    "category": "Monitor",
     "status": "In Stock",
     "price": 399.99,
     "description": "32-inch 4K monitor with HDR support and wide color gamut.",
@@ -402,7 +402,7 @@
   {
     "image": "https://www.startech.com.bd/image/cache/catalog/monitor/acer/v196hql/acer-v196hql-monitor-500x500.JPG",
     "productName": "Acer V196HQL 24 inch HD LED",
-    "category": "monitor",
+    "category": "Monitor",
     "status": "Out of stock",
     "price": 159.99,
     "description": "24-inch gaming monitor with high refresh rate and FreeSync.",
@@ -432,7 +432,7 @@
   {
     "image": "https://www.startech.com.bd/image/cache/catalog/keyboard/meetion/mt-k9320/mt-k9320-01-500x500.jpg",
     "productName": "Meetion MT-K9320",
-    "category": "others",
+    "category": "Others",
     "status": "In Stock",
     "price": 89.99,
     "description": "Mechanical gaming keyboard with customizable RGB lighting.",
@@ -461,7 +461,7 @@
   {
     "image": "https://www.startech.com.bd/image/cache/catalog/mouse/xtreme/m302/m302-01-500x500.webp",
     "productName": "Xtreme M302 USB Wired Optical Mouse",
-    "category": "others",
+    "category": "Others",
     "status": "In Stock",
     "price": 59.99,
     "description": "High-precision gaming mouse with customizable DPI and buttons.",
@@ -490,7 +490,7 @@
   {
     "image": "https://www.startech.com.bd/image/cache/catalog/mouse/havit/ms989gt/ms989gt-4-500x500.jpg",
     "productName": "HAVIT HV-MS989GT Wireless Mouse",
-    "category": "others",
+    "category": "Others",
     "status": "Out of stock",
     "price": 29.99,
     "description": "Ergonomic wireless mouse with long battery life.",

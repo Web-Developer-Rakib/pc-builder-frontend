@@ -1,9 +1,7 @@
-import { EyeOutlined } from "@ant-design/icons";
+import { AppstoreAddOutlined, EyeOutlined } from "@ant-design/icons";
 import { Button, Card, Typography } from "antd";
-import { IProduct } from "../../constants";
-export interface IProductPageProps {
-  product: IProduct;
-}
+import { IProductPageProps } from "../../constants";
+
 export default function ProductCard({ product }: IProductPageProps) {
   return (
     <Card
@@ -31,9 +29,17 @@ export default function ProductCard({ product }: IProductPageProps) {
         <b>Rating :</b> {`${product.individualRating} out of 5 Stars`}
       </Typography.Text>{" "}
       <br />
-      <Button type="primary" style={{ marginTop: 5 }}>
-        <EyeOutlined /> Details
-      </Button>
+      <div style={{ display: "flex", justifyContent: "space-between" }}>
+        <Button
+          type="primary"
+          style={{ marginTop: 5, backgroundColor: "#0cb376" }}
+        >
+          <EyeOutlined /> Details
+        </Button>
+        <Button type="primary" style={{ marginTop: 5 }}>
+          <AppstoreAddOutlined /> Add to builder
+        </Button>
+      </div>
     </Card>
   );
 }

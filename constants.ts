@@ -32,3 +32,6 @@ export interface IProduct {
   averageRating: number;
   reviews: IReview[];
 }
+export interface IProductPageProps {
+  product: IProduct;
+}

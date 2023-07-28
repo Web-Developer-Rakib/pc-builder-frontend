@@ -1,5 +1,5 @@
 import useIsMobile from "@/hooks/useMobile";
-import { MenuOutlined } from "@ant-design/icons";
+import { AppstoreOutlined, MenuOutlined } from "@ant-design/icons";
 import { Button, Drawer, Layout, Menu, theme } from "antd";
 import Link from "next/link";
 import { ReactNode, useState } from "react";
@@ -78,7 +78,8 @@ const MainLayout = ({ children }: { children: ReactNode }) => {
           </Button>
         )}
         <Button type="primary">
-          <Link href="/builder">Builder</Link>
+          <Link href="/builder">Builder </Link>
+          <AppstoreOutlined />
         </Button>
       </Header>
       <Content style={{ padding: "0 50px" }}>
