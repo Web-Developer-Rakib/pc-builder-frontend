@@ -44,7 +44,7 @@ const MainLayout = ({ children }: { children: ReactNode }) => {
     <Layout className="layout">
       <Header style={{ display: "flex", alignItems: "center" }}>
         <Link href="/">
-          <h1>PC Builder</h1>
+          <h1 style={{ color: "white" }}>PC Builder</h1>
         </Link>
         <Menu theme="dark" mode="horizontal">
           {categories.map((category) => (
