@@ -1,6 +1,8 @@
-import { Button, Layout, Menu, theme } from "antd";
+import useIsMobile from "@/hooks/useMobile";
+import { MenuOutlined } from "@ant-design/icons";
+import { Button, Drawer, Layout, Menu, theme } from "antd";
 import Link from "next/link";
-import { ReactNode } from "react";
+import { ReactNode, useState } from "react";
 
 const { Header, Content, Footer } = Layout;
 const categories = [
@@ -40,19 +42,41 @@ const MainLayout = ({ children }: { children: ReactNode }) => {
   const {
     token: { colorBgContainer },
   } = theme.useToken();
+  const [isDrawerVisible, setIsDrawerVisible] = useState<boolean>(false);
+  const { isMobile } = useIsMobile();
+  const showDrawer = () => {
+    setIsDrawerVisible(true);
+  };
+
+  const onClose = () => {
+    setIsDrawerVisible(false);
+  };
   return (
     <Layout className="layout">
-      <Header style={{ display: "flex", alignItems: "center" }}>
+      <Header
+        style={{
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "space-between",
+        }}
+      >
         <Link href="/">
           <h1 style={{ color: "white" }}>PC Builder</h1>
         </Link>
-        <Menu theme="dark" mode="horizontal">
-          {categories.map((category) => (
-            <Menu.Item key={category.id}>
-              <Link href={category.path}>{category.name}</Link>
-            </Menu.Item>
-          ))}
-        </Menu>
+
+        {!isMobile ? (
+          <Menu theme="dark" mode="horizontal">
+            {categories.map((category) => (
+              <Menu.Item key={category.id}>
+                <Link href={category.path}>{category.name}</Link>
+              </Menu.Item>
+            ))}
+          </Menu>
+        ) : (
+          <Button type="primary" onClick={showDrawer}>
+            <MenuOutlined />
+          </Button>
+        )}
         <Button type="primary">Build</Button>
       </Header>
       <Content style={{ padding: "0 50px" }}>
@@ -66,6 +90,21 @@ const MainLayout = ({ children }: { children: ReactNode }) => {
       <Footer style={{ textAlign: "center" }}>
         PC Builder ©2023 Created by Rakibul Hasan
       </Footer>
+      <Drawer
+        title="PC Builder"
+        placement="right"
+        closable={false}
+        onClose={onClose}
+        visible={isDrawerVisible}
+      >
+        <Menu theme="dark" mode="vertical">
+          {categories.map((category) => (
+            <Menu.Item key={category.id}>
+              <Link href={category.path}>{category.name}</Link>
+            </Menu.Item>
+          ))}
+        </Menu>
+      </Drawer>
     </Layout>
   );
 };
