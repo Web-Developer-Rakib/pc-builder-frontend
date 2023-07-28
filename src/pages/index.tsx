@@ -1,10 +1,11 @@
 import ProductCard from "@/components/ProductCard";
 import { Inter } from "next/font/google";
 import Head from "next/head";
+import { IProduct, baseURL } from "../../constants";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export default function Home() {
+export default function Home({ data }: any) {
   return (
     <>
       <Head>
@@ -22,13 +23,20 @@ export default function Home() {
           gap: 10,
         }}
       >
-        <ProductCard />
-        <ProductCard />
-        <ProductCard />
-        <ProductCard />
-        <ProductCard />
-        <ProductCard />
+        {data.map((product: IProduct) => (
+          <ProductCard product={product} key={product._id} />
+        ))}
       </div>
     </>
   );
 }
+export const getStaticProps = async () => {
+  const res = await fetch(`${baseURL}/products/random`);
+  const data: IProduct = await res.json();
+  return {
+    props: {
+      data,
+    },
+    revalidate: 10,
+  };
+};

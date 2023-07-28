@@ -1,37 +1,34 @@
 import { EyeOutlined } from "@ant-design/icons";
 import { Button, Card, Typography } from "antd";
-
-const ProductCard = () => {
-  const { Meta } = Card;
+import { IProduct } from "../../constants";
+export interface IProductPageProps {
+  product: IProduct;
+}
+export default function ProductCard({ product }: IProductPageProps) {
   return (
     <Card
       hoverable
       style={{ width: 400 }}
-      cover={
-        <img
-          alt="example"
-          src="https://c1.neweggimages.com/ProductImage/19-113-103-V07.jpg"
-        />
-      }
+      cover={<img alt={product.productName} src={product.image} />}
     >
       <Typography.Text>
-        <b>Name:</b> Ryzen G-series
+        <b>Name:</b> {product.productName}
       </Typography.Text>
       <br />
       <Typography.Text>
-        <b>Category:</b> CPU
+        <b>Category:</b> {product.category}
       </Typography.Text>
       <br />
       <Typography.Text>
-        <b>Price:</b> {500}
+        <b>Price:</b> {`${product.price}$`}
       </Typography.Text>
       <br />
       <Typography.Text>
-        <b>Status :</b> In Stock
+        <b>Status :</b> {product.status}
       </Typography.Text>
       <br />
       <Typography.Text>
-        <b>Rating :</b> {4} Out of 5 Stars
+        <b>Rating :</b> {`${product.individualRating} out of 5 Stars`}
       </Typography.Text>{" "}
       <br />
       <Button type="primary" style={{ marginTop: 5 }}>
@@ -39,6 +36,4 @@ const ProductCard = () => {
       </Button>
     </Card>
   );
-};
-
-export default ProductCard;
+}
