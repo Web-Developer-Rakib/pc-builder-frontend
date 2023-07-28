@@ -77,7 +77,9 @@ const MainLayout = ({ children }: { children: ReactNode }) => {
             <MenuOutlined />
           </Button>
         )}
-        <Button type="primary">Builder</Button>
+        <Button type="primary">
+          <Link href="/builder">Builder</Link>
+        </Button>
       </Header>
       <Content style={{ padding: "0 50px" }}>
         <div

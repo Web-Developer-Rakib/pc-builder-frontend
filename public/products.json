@@ -1,0 +1,519 @@
+[
+  {
+    "image": "https://www.startech.com.bd/image/cache/catalog/processor/amd/Athlon/athlon-500x500.jpg",
+    "productName": "AMD Athlon 200GE",
+    "category": "cpu",
+    "status": "In Stock",
+    "price": 399.99,
+    "description": "Powerful CPU for high-performance computing tasks.",
+    "keyFeatures": {
+      "Core Count": "8",
+      "Clock Speed": "3.5 GHz",
+      "Cache Size": "16 MB",
+      "Socket Type": "LGA 1200"
+    },
+    "individualRating": 4.5,
+    "averageRating": 4.3,
+    "reviews": [
+      {
+        "userName": "Robin",
+        "rating": 4,
+        "reviewText": "Great CPU, performs well in gaming and multitasking."
+      },
+      {
+        "userName": "Rashed",
+        "rating": 5,
+        "reviewText": "Excellent value for money, highly recommended!"
+      }
+    ]
+  },
+  {
+    "image": "https://www.startech.com.bd/image/cache/catalog/processor/Intel/pentium-gold-g6405/pentium-gold-g6405-01-500x500.webp",
+    "productName": "Intel Pentium Gold G6405",
+    "category": "cpu",
+    "status": "Out of stock",
+    "price": 499.99,
+    "description": "Top-of-the-line CPU for professional workstations.",
+    "keyFeatures": {
+      "Core Count": "12",
+      "Clock Speed": "4.2 GHz",
+      "Cache Size": "32 MB",
+      "Socket Type": "LGA 1700"
+    },
+    "individualRating": 4.8,
+    "averageRating": 4.6,
+    "reviews": [
+      {
+        "userName": "Robert",
+        "rating": 5,
+        "reviewText": "Incredible performance, perfect for video editing."
+      },
+      {
+        "userName": "Carlos",
+        "rating": 4,
+        "reviewText": "Great CPU, but a bit pricey."
+      }
+    ]
+  },
+  {
+    "image": "https://www.startech.com.bd/image/cache/catalog/processor/Intel/i3-10100/i3-10100-500x500.jpg",
+    "productName": "Intel 10th Gen Core i3",
+    "category": "cpu",
+    "status": "In Stock",
+    "price": 299.99,
+    "description": "Budget-friendly CPU for everyday tasks and light gaming.",
+    "keyFeatures": {
+      "Core Count": "4",
+      "Clock Speed": "3.0 GHz",
+      "Cache Size": "8 MB",
+      "Socket Type": "AM4"
+    },
+    "individualRating": 4.2,
+    "averageRating": 3.9,
+    "reviews": [
+      {
+        "userName": "Josef",
+        "rating": 3.5,
+        "reviewText": "Decent CPU for the price, but not suitable for heavy tasks."
+      },
+      {
+        "userName": "Adam",
+        "rating": 4,
+        "reviewText": "Good entry-level CPU, works fine for basic computing."
+      }
+    ]
+  },
+
+  {
+    "image": "https://www.startech.com.bd/image/cache/catalog/ram/transcend/jetram-4gb/jetram-4gb-01-500x500.webp",
+    "productName": "Transcend JetRam 16GB DDR4",
+    "category": "ram",
+    "status": "In Stock",
+    "price": 79.99,
+    "description": "High-speed DDR4 RAM module for enhanced system performance.",
+    "keyFeatures": {
+      "Capacity": "16GB",
+      "Speed": "3200MHz",
+      "Type": "DDR4",
+      "CAS Latency": "16"
+    },
+    "individualRating": 4.7,
+    "averageRating": 4.5,
+    "reviews": [
+      {
+        "userName": "Juni",
+        "rating": 5,
+        "reviewText": "Fast and reliable RAM, perfect for gaming."
+      },
+      {
+        "userName": "Jassica",
+        "rating": 4,
+        "reviewText": "Good value for the performance it provides."
+      }
+    ]
+  },
+  {
+    "image": "https://www.startech.com.bd/image/cache/catalog/ram/adata/4gb-ddr4-2666/4gb-2666-500x500.jpg",
+    "productName": "Adata 32 GB DDR4 ",
+    "category": "ram",
+    "status": "In Stock",
+    "price": 129.99,
+    "description": "High-capacity DDR4 RAM module for memory-intensive tasks.",
+    "keyFeatures": {
+      "Capacity": "32GB",
+      "Speed": "3600MHz",
+      "Type": "DDR4",
+      "CAS Latency": "18"
+    },
+    "individualRating": 4.9,
+    "averageRating": 4.8,
+    "reviews": [
+      {
+        "userName": "Robert",
+        "rating": 5,
+        "reviewText": "Excellent RAM, handles heavy multitasking effortlessly."
+      },
+      {
+        "userName": "Alex",
+        "rating": 5,
+        "reviewText": "Reliable and fast, great for video editing."
+      }
+    ]
+  },
+  {
+    "image": "https://www.startech.com.bd/image/cache/catalog/ram/netac/basic-4gb-ddr4-2666mhz/basic-4gb-ddr4-2666mhz-01-500x500.webp",
+    "productName": "Netac Basic 8GB DDR4",
+    "category": "ram",
+    "status": "Out of stock",
+    "price": 49.99,
+    "description": "Affordable DDR3 RAM module for basic computing needs.",
+    "keyFeatures": {
+      "Capacity": "8GB",
+      "Speed": "2400MHz",
+      "Type": "DDR3",
+      "CAS Latency": "14"
+    },
+    "individualRating": 4.2,
+    "averageRating": 4.0,
+    "reviews": [
+      {
+        "userName": "Kristan",
+        "rating": 4,
+        "reviewText": "Decent RAM for everyday use, but not for heavy tasks."
+      },
+      {
+        "userName": "Oni",
+        "rating": 3.5,
+        "reviewText": "It's okay for the price, but I expected better performance."
+      }
+    ]
+  },
+  {
+    "image": "https://www.startech.com.bd/image/cache/catalog/power-supply/ovo/ops-p4-450w/ops-p4-450w-02-500x500.webp",
+    "productName": "OVO OPS-P4 750W ATX",
+    "category": "Power Supply Unit",
+    "status": "In Stock",
+    "price": 99.99,
+    "description": "High-efficiency 750W power supply for gaming rigs.",
+    "keyFeatures": {
+      "Wattage": "750W",
+      "Efficiency Rating": "80 Plus Gold",
+      "Modular Cables": "Yes",
+      "Fan Size": "120mm"
+    },
+    "individualRating": 4.8,
+    "averageRating": 4.6,
+    "reviews": [
+      {
+        "userName": "Biden",
+        "rating": 5,
+        "reviewText": "Excellent PSU, keeps my system stable even under heavy load."
+      },
+      {
+        "userName": "Markoni",
+        "rating": 4.5,
+        "reviewText": "Good build quality and quiet operation."
+      }
+    ]
+  },
+  {
+    "image": "https://www.startech.com.bd/image/cache/catalog/power-supply/revenger/vp-350/vp-350-01-500x500.webp",
+    "productName": "Revenger VP 850 Watt",
+    "category": "Power Supply Unit",
+    "status": "In Stock",
+    "price": 149.99,
+    "description": "High-performance 850W power supply for enthusiast PCs.",
+    "keyFeatures": {
+      "Wattage": "850W",
+      "Efficiency Rating": "80 Plus Platinum",
+      "Modular Cables": "Yes",
+      "Fan Size": "140mm"
+    },
+    "individualRating": 4.9,
+    "averageRating": 4.8,
+    "reviews": [
+      {
+        "userName": "Xavier",
+        "rating": 5,
+        "reviewText": "Top-notch PSU, handles overclocking like a champ."
+      },
+      {
+        "userName": "Albert",
+        "rating": 5,
+        "reviewText": "Efficient and reliable, worth the premium price."
+      }
+    ]
+  },
+  {
+    "image": "https://www.startech.com.bd/image/cache/catalog/power-supply/power-train/pt-p200b/pt-p200b-01-500x500.webp",
+    "productName": "Power Train PT-P200B 200W",
+    "category": "Power Supply Unit",
+    "status": "Out of stock",
+    "price": 79.99,
+    "description": "Budget-friendly 200W power supply for entry-level systems.",
+    "keyFeatures": {
+      "Wattage": "200W",
+      "Efficiency Rating": "80 Plus Bronze",
+      "Modular Cables": "No",
+      "Fan Size": "80mm"
+    },
+    "individualRating": 4.3,
+    "averageRating": 4.1,
+    "reviews": [
+      {
+        "userName": "Jackson",
+        "rating": 4,
+        "reviewText": "Decent PSU for the price, but lacks modular cables."
+      },
+      {
+        "userName": "Arina",
+        "rating": 4.5,
+        "reviewText": "Reliable performance for my basic PC setup."
+      }
+    ]
+  },
+  {
+    "image": "https://www.startech.com.bd/image/cache/catalog/ssd/twinmos/128gb-m-2-2280-sataiii-ssd/128gb-m-2-2280-sataiii-ssd-01-500x500.webp",
+    "productName": "TwinMOS 128GB M.2 2280 SATAIII SSD",
+    "category": "Storage Device",
+    "status": "In Stock",
+    "price": 79.99,
+    "description": "High-speed 128GB SSD for faster data access.",
+    "keyFeatures": {
+      "Capacity": "128GB",
+      "Interface": "NVMe PCIe 3.0",
+      "Form Factor": "M.2 2280",
+      "Read Speed": "3500 MB/s",
+      "Write Speed": "2500 MB/s"
+    },
+    "individualRating": 4.7,
+    "averageRating": 4.5,
+    "reviews": [
+      {
+        "userName": "Ana",
+        "rating": 5,
+        "reviewText": "Blazing-fast SSD, significantly improved boot times."
+      },
+      {
+        "userName": "Maria",
+        "rating": 4.5,
+        "reviewText": "Great value for the performance it provides."
+      }
+    ]
+  },
+  {
+    "image": "https://www.startech.com.bd/image/cache/catalog/ssd/msi/spatium-s270/spatium-s270-01-500x500.webp",
+    "productName": "MSI SPATIUM S270 120GB 2.5-Inch SATAIII SSD",
+    "category": "Storage Device",
+    "status": "In Stock",
+    "price": 129.99,
+    "description": "High-capacity 120 GB SSD for ample data storage.",
+    "keyFeatures": {
+      "Capacity": "120 GB",
+      "Interface": "SATA III",
+      "Form Factor": "3.5-inch",
+      "RPM": "7200",
+      "Cache Size": "64MB"
+    },
+    "individualRating": 4.8,
+    "averageRating": 4.7,
+    "reviews": [
+      {
+        "userName": "Smith",
+        "rating": 5,
+        "reviewText": "Massive storage space, perfect for my media collection."
+      },
+      {
+        "userName": "Caprio",
+        "rating": 5,
+        "reviewText": "Reliable and consistent performance, no complaints."
+      }
+    ]
+  },
+  {
+    "image": "https://www.startech.com.bd/image/cache/catalog/ssd/pny/cs900/cs900-500x500.jpg",
+    "productName": "PNY CS900 120GB SATA III Internal SSD",
+    "category": "Storage Device",
+    "status": "Out of stock",
+    "price": 49.99,
+    "description": "Budget-friendly 120GB SSD for entry-level systems.",
+    "keyFeatures": {
+      "Capacity": "120GB",
+      "Interface": "SATA III",
+      "Form Factor": "2.5-inch",
+      "Read Speed": "550 MB/s",
+      "Write Speed": "450 MB/s"
+    },
+    "individualRating": 4.3,
+    "averageRating": 4.1,
+    "reviews": [
+      {
+        "userName": "Gracia",
+        "rating": 4,
+        "reviewText": "Decent SSD for everyday tasks, but limited space."
+      },
+      {
+        "userName": "Josse",
+        "rating": 4.5,
+        "reviewText": "Affordable and reliable, suits my basic needs."
+      }
+    ]
+  },
+  {
+    "image": "https://www.startech.com.bd/image/cache/catalog/monitor/lenovo/d19-10/d19-10-01-500x500.jpg",
+    "productName": "Lenovo D19-10 27 Inch HD",
+    "category": "monitor",
+    "status": "In Stock",
+    "price": 249.99,
+    "description": "27-inch IPS monitor with Full HD resolution and slim bezels.",
+    "keyFeatures": {
+      "Display Size": "27 inches",
+      "Resolution": "1920x1080 (Full HD)",
+      "Panel Type": "IPS",
+      "Refresh Rate": "60Hz",
+      "Response Time": "5ms",
+      "Connectivity": "HDMI, VGA"
+    },
+    "individualRating": 4.6,
+    "averageRating": 4.4,
+    "reviews": [
+      {
+        "userName": "Lincon",
+        "rating": 4.5,
+        "reviewText": "Clear and vibrant display, great for multimedia."
+      },
+      {
+        "userName": "Leo",
+        "rating": 4,
+        "reviewText": "Solid budget monitor, good value for the price."
+      }
+    ]
+  },
+  {
+    "image": "https://www.startech.com.bd/image/cache/catalog/monitor/philips/193v/193v-500x500.png",
+    "productName": "PHILIPS 32 Inch 193V5LSB2 LED",
+    "category": "monitor",
+    "status": "In Stock",
+    "price": 399.99,
+    "description": "32-inch 4K monitor with HDR support and wide color gamut.",
+    "keyFeatures": {
+      "Display Size": "32 inches",
+      "Resolution": "3840x2160 (4K UHD)",
+      "Panel Type": "VA",
+      "Refresh Rate": "60Hz",
+      "Response Time": "4ms",
+      "Connectivity": "HDMI 2.0, DisplayPort"
+    },
+    "individualRating": 4.9,
+    "averageRating": 4.8,
+    "reviews": [
+      {
+        "userName": "Luke",
+        "rating": 5,
+        "reviewText": "Stunning 4K display, perfect for content creation."
+      },
+      {
+        "userName": "David",
+        "rating": 5,
+        "reviewText": "Excellent colors and contrast, highly recommended."
+      }
+    ]
+  },
+  {
+    "image": "https://www.startech.com.bd/image/cache/catalog/monitor/acer/v196hql/acer-v196hql-monitor-500x500.JPG",
+    "productName": "Acer V196HQL 24 inch HD LED",
+    "category": "monitor",
+    "status": "Out of stock",
+    "price": 159.99,
+    "description": "24-inch gaming monitor with high refresh rate and FreeSync.",
+    "keyFeatures": {
+      "Display Size": "24 inches",
+      "Resolution": "1920x1080 (Full HD)",
+      "Panel Type": "TN",
+      "Refresh Rate": "144Hz",
+      "Response Time": "1ms",
+      "Connectivity": "HDMI, DisplayPort"
+    },
+    "individualRating": 4.4,
+    "averageRating": 4.2,
+    "reviews": [
+      {
+        "userName": "Sofia",
+        "rating": 4,
+        "reviewText": "Fast refresh rate, great for gaming on a budget."
+      },
+      {
+        "userName": "Lisa",
+        "rating": 4.5,
+        "reviewText": "Good entry-level gaming monitor, but colors could be better."
+      }
+    ]
+  },
+  {
+    "image": "https://www.startech.com.bd/image/cache/catalog/keyboard/meetion/mt-k9320/mt-k9320-01-500x500.jpg",
+    "productName": "Meetion MT-K9320",
+    "category": "others",
+    "status": "In Stock",
+    "price": 89.99,
+    "description": "Mechanical gaming keyboard with customizable RGB lighting.",
+    "keyFeatures": {
+      "Switch Type": "Cherry MX Brown",
+      "Backlighting": "RGB",
+      "Key Rollover": "N-key rollover",
+      "Cable Type": "Braided USB",
+      "Additional Features": "Detachable wrist rest"
+    },
+    "individualRating": 4.7,
+    "averageRating": 4.5,
+    "reviews": [
+      {
+        "userName": "Bob",
+        "rating": 5,
+        "reviewText": "Amazing typing experience, the RGB lighting is a nice touch."
+      },
+      {
+        "userName": "Sam",
+        "rating": 4.5,
+        "reviewText": "Solid build quality, great for gaming and typing."
+      }
+    ]
+  },
+  {
+    "image": "https://www.startech.com.bd/image/cache/catalog/mouse/xtreme/m302/m302-01-500x500.webp",
+    "productName": "Xtreme M302 USB Wired Optical Mouse",
+    "category": "others",
+    "status": "In Stock",
+    "price": 59.99,
+    "description": "High-precision gaming mouse with customizable DPI and buttons.",
+    "keyFeatures": {
+      "DPI Range": "800 - 16000 DPI",
+      "Buttons": "8 programmable buttons",
+      "Polling Rate": "1000Hz",
+      "Grip Type": "Palm, Claw, Fingertip",
+      "Cable Type": "Braided USB"
+    },
+    "individualRating": 4.8,
+    "averageRating": 4.6,
+    "reviews": [
+      {
+        "userName": "Kaly",
+        "rating": 5,
+        "reviewText": "Very precise and comfortable mouse, ideal for gaming."
+      },
+      {
+        "userName": "Barton",
+        "rating": 5,
+        "reviewText": "Customizable buttons are a great addition, overall impressed."
+      }
+    ]
+  },
+  {
+    "image": "https://www.startech.com.bd/image/cache/catalog/mouse/havit/ms989gt/ms989gt-4-500x500.jpg",
+    "productName": "HAVIT HV-MS989GT Wireless Mouse",
+    "category": "others",
+    "status": "Out of stock",
+    "price": 29.99,
+    "description": "Ergonomic wireless mouse with long battery life.",
+    "keyFeatures": {
+      "DPI Range": "1200 - 2400 DPI",
+      "Buttons": "4 buttons",
+      "Connection": "2.4GHz wireless",
+      "Battery Life": "Up to 12 months",
+      "Hand Orientation": "Ambidextrous"
+    },
+    "individualRating": 4.5,
+    "averageRating": 4.3,
+    "reviews": [
+      {
+        "userName": "Harison",
+        "rating": 4,
+        "reviewText": "Comfortable and reliable wireless mouse, perfect for everyday use."
+      },
+      {
+        "userName": "Kate",
+        "rating": 4.5,
+        "reviewText": "Long battery life and smooth tracking, a good budget option."
+      }
+    ]
+  }
+]
