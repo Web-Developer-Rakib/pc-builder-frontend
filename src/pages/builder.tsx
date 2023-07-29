@@ -1,4 +1,5 @@
 import CpuCart from "@/components/BuilderCarts/CpuCart";
+import MonitorCart from "@/components/BuilderCarts/MonitorCart";
 import PsuCart from "@/components/BuilderCarts/PsuCart";
 import RamCart from "@/components/BuilderCarts/RamCart";
 import SdCart from "@/components/BuilderCarts/SdCart";
@@ -19,6 +20,7 @@ const Builder = () => {
         <RamCart />
         <PsuCart />
         <SdCart />
+        <MonitorCart />
       </Card>
     </>
   );

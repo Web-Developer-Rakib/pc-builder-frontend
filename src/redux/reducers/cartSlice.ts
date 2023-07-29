@@ -48,13 +48,13 @@ const cartSlice = createSlice({
     addToMonitorCart: (state, action) => {
       state.monitorCart = [action.payload];
     },
-    removeMonitorSdCart: (state) => {
+    removeFromMonitorCart: (state) => {
       state.monitorCart = [];
     },
     addToOthersCart: (state, action) => {
       state.othersCart = [action.payload];
     },
-    removeOthersSdCart: (state) => {
+    removeFromOthersCart: (state) => {
       state.othersCart = [];
     },
   },
@@ -70,8 +70,8 @@ export const {
   addToSdCart,
   removeFromSdCart,
   addToMonitorCart,
-  removeMonitorSdCart,
+  removeFromMonitorCart,
   addToOthersCart,
-  removeOthersSdCart,
+  removeFromOthersCart,
 } = cartSlice.actions;
 export default cartSlice.reducer;
