@@ -1,6 +1,7 @@
 import CpuCart from "@/components/BuilderCarts/CpuCart";
 import PsuCart from "@/components/BuilderCarts/PsuCart";
 import RamCart from "@/components/BuilderCarts/RamCart";
+import SdCart from "@/components/BuilderCarts/SdCart";
 import { Card } from "antd";
 import Head from "next/head";
 
@@ -17,6 +18,7 @@ const Builder = () => {
         <CpuCart />
         <RamCart />
         <PsuCart />
+        <SdCart />
       </Card>
     </>
   );
