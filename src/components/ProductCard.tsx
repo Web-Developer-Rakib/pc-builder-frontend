@@ -9,6 +9,7 @@ import {
 } from "@/redux/reducers/cartSlice";
 import { AppstoreAddOutlined, EyeOutlined } from "@ant-design/icons";
 import { Button, Card, Typography } from "antd";
+import Link from "next/link";
 import { toast } from "react-toastify";
 import { IProduct, IProductPageProps } from "../../constants";
 
@@ -68,12 +69,14 @@ export default function ProductCard({ product }: IProductPageProps) {
       </Typography.Text>{" "}
       <br />
       <div style={{ display: "flex", justifyContent: "space-between" }}>
-        <Button
-          type="primary"
-          style={{ marginTop: 5, backgroundColor: "#0cb376" }}
-        >
-          <EyeOutlined /> Details
-        </Button>
+        <Link href={`/product/${product._id}`}>
+          <Button
+            type="primary"
+            style={{ marginTop: 5, backgroundColor: "#0cb376" }}
+          >
+            <EyeOutlined /> Details
+          </Button>
+        </Link>
         <Button
           type="primary"
           style={{ marginTop: 5 }}
