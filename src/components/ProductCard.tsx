@@ -1,5 +1,12 @@
 import { useAppDispatch } from "@/redux/hooks";
-import { addToCpuCart } from "@/redux/reducers/cartSlice";
+import {
+  addToCpuCart,
+  addToMonitorCart,
+  addToOthersCart,
+  addToPsuCart,
+  addToRamCart,
+  addToSdCart,
+} from "@/redux/reducers/cartSlice";
 import { AppstoreAddOutlined, EyeOutlined } from "@ant-design/icons";
 import { Button, Card, Typography } from "antd";
 import { IProduct, IProductPageProps } from "../../constants";
@@ -9,6 +16,21 @@ export default function ProductCard({ product }: IProductPageProps) {
   const handleAddToBuilder = (selectedProduct: IProduct) => {
     if (product.category === "CPU") {
       dispatch(addToCpuCart(selectedProduct));
+    }
+    if (product.category === "RAM") {
+      dispatch(addToRamCart(selectedProduct));
+    }
+    if (product.category === "Power Supply Unit") {
+      dispatch(addToPsuCart(selectedProduct));
+    }
+    if (product.category === "Storage Device") {
+      dispatch(addToSdCart(selectedProduct));
+    }
+    if (product.category === "Monitor") {
+      dispatch(addToMonitorCart(selectedProduct));
+    }
+    if (product.category === "Others") {
+      dispatch(addToOthersCart(selectedProduct));
     }
   };
 
