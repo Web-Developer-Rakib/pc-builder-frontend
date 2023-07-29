@@ -1,8 +1,17 @@
+import { useAppDispatch } from "@/redux/hooks";
+import { addToCpuCart } from "@/redux/reducers/cartSlice";
 import { AppstoreAddOutlined, EyeOutlined } from "@ant-design/icons";
 import { Button, Card, Typography } from "antd";
-import { IProductPageProps } from "../../constants";
+import { IProduct, IProductPageProps } from "../../constants";
 
 export default function ProductCard({ product }: IProductPageProps) {
+  const dispatch = useAppDispatch();
+  const handleAddToBuilder = (selectedProduct: IProduct) => {
+    if (product.category === "CPU") {
+      dispatch(addToCpuCart(selectedProduct));
+    }
+  };
+
   return (
     <Card
       hoverable
@@ -36,7 +45,11 @@ export default function ProductCard({ product }: IProductPageProps) {
         >
           <EyeOutlined /> Details
         </Button>
-        <Button type="primary" style={{ marginTop: 5 }}>
+        <Button
+          type="primary"
+          style={{ marginTop: 5 }}
+          onClick={() => handleAddToBuilder(product)}
+        >
           <AppstoreAddOutlined /> Add to builder
         </Button>
       </div>
