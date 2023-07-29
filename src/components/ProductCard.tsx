@@ -9,6 +9,7 @@ import {
 } from "@/redux/reducers/cartSlice";
 import { AppstoreAddOutlined, EyeOutlined } from "@ant-design/icons";
 import { Button, Card, Typography } from "antd";
+import { toast } from "react-toastify";
 import { IProduct, IProductPageProps } from "../../constants";
 
 export default function ProductCard({ product }: IProductPageProps) {
@@ -16,21 +17,27 @@ export default function ProductCard({ product }: IProductPageProps) {
   const handleAddToBuilder = (selectedProduct: IProduct) => {
     if (product.category === "CPU") {
       dispatch(addToCpuCart(selectedProduct));
+      toast.success("CPU added to the builder");
     }
     if (product.category === "RAM") {
       dispatch(addToRamCart(selectedProduct));
+      toast.success("RAM added to the builder");
     }
     if (product.category === "Power Supply Unit") {
       dispatch(addToPsuCart(selectedProduct));
+      toast.success("PSU added to the builder");
     }
     if (product.category === "Storage Device") {
       dispatch(addToSdCart(selectedProduct));
+      toast.success("Storage Device added to the builder");
     }
     if (product.category === "Monitor") {
       dispatch(addToMonitorCart(selectedProduct));
+      toast.success("Monitor added to the builder");
     }
     if (product.category === "Others") {
       dispatch(addToOthersCart(selectedProduct));
+      toast.success("Item added to the builder");
     }
   };
 

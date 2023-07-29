@@ -1,3 +1,4 @@
+import BuildButton from "@/components/BuildButton";
 import CpuCart from "@/components/BuilderCarts/CpuCart";
 import MonitorCart from "@/components/BuilderCarts/MonitorCart";
 import OthersCart from "@/components/BuilderCarts/OthersCart";
@@ -24,6 +25,16 @@ const Builder = () => {
         <MonitorCart />
         <OthersCart />
       </Card>
+      <div
+        style={{
+          display: "flex",
+          justifyContent: "center",
+          marginTop: 20,
+          paddingBottom: 20,
+        }}
+      >
+        <BuildButton />
+      </div>
     </>
   );
 };
