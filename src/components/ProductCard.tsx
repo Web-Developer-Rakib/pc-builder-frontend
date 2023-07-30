@@ -80,6 +80,7 @@ export default function ProductCard({ product }: IProductPageProps) {
         <Button
           type="primary"
           style={{ marginTop: 5 }}
+          disabled={product.status === "Out of stock" ? true : false}
           onClick={() => handleAddToBuilder(product)}
         >
           <AppstoreAddOutlined /> Add to builder

@@ -1,8 +1,5 @@
 export const baseURL = `${process.env.NEXT_APP_BASE_URL}`;
-enum ProductStatus {
-  InStock = "In Stock",
-  OutOfStock = "Out of Stock",
-}
+type ProductStatus = "In stock" | "Out of stock";
 
 interface IReview {
   userName: string;
